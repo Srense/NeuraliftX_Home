@@ -22,7 +22,7 @@ export function Timeline() {
     {
       year: '2025',
       title: 'Innovation Forward',
-      description: 'Launching new features including AR/VR integration and advanced collaboration tools.',
+      description: 'Launching new features integration and advanced collaboration tools.',
     },
   ];
 

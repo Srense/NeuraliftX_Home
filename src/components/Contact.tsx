@@ -32,7 +32,7 @@ export function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      content: 'cneuraliftx@gmail.com',
+      content: 'neuraliftx@gmail.com',
       color: 'from-blue-500 to-cyan-500',
     },
     {
@@ -44,7 +44,7 @@ export function Contact() {
     {
       icon: MapPin,
       title: 'Address',
-      content: 'Technologu Beureau Incubator,Chandigarh University,Mohali,Punjab,140413',
+      content: 'Chandigarh University,Mohali,Punjab,140413',
       color: 'from-cyan-500 to-blue-500',
     },
   ];
