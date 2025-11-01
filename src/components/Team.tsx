@@ -2,33 +2,38 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Linkedin, Twitter } from 'lucide-react';
 import { Card } from './ui/card';
 import { motion } from 'motion/react';
+import Sohel from '../assets/sohel-professional.jpg';
+import Annkit from '../assets/annkit-bhai.jpg';
+import Moinak from'../assets/moinak.jpg';
+import Devasheesh from '../assets/Devasheesh.jpg';
 
 export function Team() {
   const teamMembers = [
     {
-      name: 'Sarah Johnson',
+      name: 'Annkit Sarker',
       role: 'CEO & Founder',
-      image: 'https://images.unsplash.com/photo-1606596556957-f6566cc865a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjBidXNpbmVzcyUyMGV4ZWN1dGl2ZXxlbnwxfHx8fDE3NjAyODcyMjN8MA&ixlib=rb-4.1.0&q=80&w=1080',
-      bio: 'Visionary leader with 15+ years in EdTech and AI.',
+      image: Annkit,
+      bio: 'Visionary leader with 5+ years in EdTech and AI.',
     },
     {
-      name: 'Michael Chen',
-      role: 'CTO',
-      image: 'https://images.unsplash.com/photo-1635768229592-8c2532d33cb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwcHJvZmVzc2lvbmFsJTIwbWFufGVufDF8fHx8MTc2MDI1MjgzNXww&ixlib=rb-4.1.0&q=80&w=1080',
+      name: 'Sohel Rizwan',
+      role: 'CSO',
+      image: Sohel,
       bio: 'AI expert and tech innovator passionate about education.',
     },
     {
-      name: 'David Martinez',
-      role: 'Head of Product',
-      image: 'https://images.unsplash.com/photo-1425421669292-0c3da3b8f529?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMHBlcnNvbnxlbnwxfHx8fDE3NjAyNTQ5MTN8MA&ixlib=rb-4.1.0&q=80&w=1080',
-      bio: 'Product strategist focused on user-centric design.',
+      name: 'Moinak Niyogi',
+      role: 'CTO',
+      image: Moinak,
+      bio: 'Product Strategist and researcher focused on user-centric design.',
     },
     {
-      name: 'Emily Watson',
-      role: 'Head of Design',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMHByb2Zlc3Npb25hbCUyMHdvbWFufGVufDF8fHx8MTc2MDI4MDM0N3ww&ixlib=rb-4.1.0&q=80&w=1080',
-      bio: 'Creative designer crafting delightful user experiences.',
-    },
+      name:'Devasheesh Chandra',
+      role:'Editor and Videographer',
+      image: Devasheesh,
+      bio: 'Creative Editor with a passion for visual media.'
+    }
+    
   ];
 
   return (
