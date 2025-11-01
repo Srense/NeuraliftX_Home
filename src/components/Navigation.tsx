@@ -29,7 +29,7 @@ export function Navigation() {
     { label: 'Vision & Mission', id: 'vision' },
     { label: 'Timeline', id: 'timeline' },
     { label: 'Team', id: 'team' },
-    { label: 'Testimonials', id: 'testimonials' },
+    // { label: 'Testimonials', id: 'testimonials' },
     { label: 'Contact', id: 'contact' },
   ];
 

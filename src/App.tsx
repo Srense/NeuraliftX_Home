@@ -4,7 +4,7 @@ import { About } from './components/About';
 import { VisionMission } from './components/VisionMission';
 import { Timeline } from './components/Timeline';
 import { Team } from './components/Team';
-import { Testimonials } from './components/Testimonials';
+// import { Testimonials } from './components/Testimonials';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 
@@ -17,7 +17,7 @@ export default function App() {
       <VisionMission />
       <Timeline />
       <Team />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </div>

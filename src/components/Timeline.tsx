@@ -4,25 +4,21 @@ import { motion } from 'motion/react';
 export function Timeline() {
   const milestones = [
     {
-      year: '2021',
+      year: '2022',
       title: 'Foundation',
       description: 'Neuralift-X was founded with a vision to revolutionize online learning through AI.',
     },
     {
-      year: '2022',
+      year: '2023',
       title: 'Beta Launch',
       description: 'Successfully launched beta version with 500+ early adopters and received valuable feedback.',
     },
     {
-      year: '2023',
+      year: '2024',
       title: 'AI Integration',
       description: 'Integrated advanced AI algorithms for personalized learning paths and real-time analytics.',
     },
-    {
-      year: '2024',
-      title: 'Global Expansion',
-      description: 'Expanded to 50+ countries with over 100,000 active users and 5,000+ courses.',
-    },
+   
     {
       year: '2025',
       title: 'Innovation Forward',

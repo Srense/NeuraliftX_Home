@@ -32,19 +32,19 @@ export function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      content: 'contact@neuralift-x.com',
+      content: 'cneuraliftx@gmail.com',
       color: 'from-blue-500 to-cyan-500',
     },
     {
       icon: Phone,
       title: 'Phone',
-      content: '+1 (555) 123-4567',
+      content: '+91 8697319384',
       color: 'from-purple-500 to-blue-500',
     },
     {
       icon: MapPin,
       title: 'Address',
-      content: '123 Tech Avenue, Silicon Valley, CA 94025',
+      content: 'Technologu Beureau Incubator,Chandigarh University,Mohali,Punjab,140413',
       color: 'from-cyan-500 to-blue-500',
     },
   ];
